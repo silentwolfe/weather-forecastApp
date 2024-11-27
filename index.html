@@ -3,17 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
     <section class="Lside_bar">
-        <div class="wind_logo"></div>
-        <div class="weather-btn_sect"></div>
-        <div class="city-list_sect"></div>
-        <div class="map_sect"></div>
-        <div class="settings_sect"></div>
+        <div class="wind_logo">
+            <img src="./images/wind_icon.svg" alt="" style="border: red;">
+        </div>
+        <div class="weather-btn_sect">
+            <img src="./images/weather_icon.svg" alt="">
+        </div>
+        <div class="city-list_sect">
+            <img src="/images/list_icon.svg" alt="">
+        </div>
+        <div class="map_sect">
+            <img src="./images/map_icon.svg" alt="">
+        </div>
+        <div class="settings_sect">
+            <img src="./images/settings_icon.svg" alt="">
+        </div>
     </section>
-    <section class="main_bar"></section>
+    <section class="main_bar">
+        <div class="search_sect">
+            <input type="text" name="" id="">
+        </div>
+        <div class="weather_content_sect">
+            <div>
+                <span class="country_location" id="city"></span>
+                <p class="rain-percentage"></p>
+                <span class="temperature"></span>
+            </div>
+            <div>
+                <img src="" alt="" id="weather_display">
+            </div>
+        </div>
+        <div class="today_forecast_sect">
+            <h4>TODAY'S FORECAST</h4>
+            <div class="block1">
+                <h4 id="">6:00 AM</h4>
+                <img src="" alt="" id="block1_weather">
+                <h2 id="block1_temp"></h2>
+            </div>
+            <div class="block2">
+                <h4 id="">9:00 AM</h4>
+                <img src="" alt="" id="block2_weather">
+                <h2 id="block2_temp"></h2>
+            </div>
+            <div class="block3">
+                <h4 id="">12:00 PM</h4>
+                <img src="" alt="" id="block3_weather">
+                <h2 id="block3_temp"></h2>
+            </div>
+            <div class="block4">
+                <h4 id="">3:00 PM</h4>
+                <img src="" alt="" id="block4_weather">
+                <h2 id="block4_temp"></h2>
+            </div>
+            <div class="block5">
+                <h4 id="">6:00 PM</h4>
+                <img src="" alt="" id="block5_weather">
+                <h2 id="block5_temp"></h2>
+            </div>
+            <div class="block6">
+                <h4 id="">9:00 PM</h4>
+                <img src="" alt="" id="block6_weather">
+                <h2 id="block6_temp"></h2>
+            </div>
+        </div>
+        <div class="air_condition_sect">
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <div>
+                        <p>Real Feel</p>
+                        <span id="air_sect_temp"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <div>
+                        <p>Wind</p>
+                        <span id="air_sect_wind"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <div>
+                        <p>Chance of rain</p>
+                        <span id="air_sect_rain-percentage"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <div>
+                        <p>UV Index</p>
+                        <span id="air_sect_index"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="Rside_bar"></section>
 </body>
 </html>
