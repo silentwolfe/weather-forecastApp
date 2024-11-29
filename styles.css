@@ -1,4 +1,117 @@
-img {
-    width: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
     color: white;
+    background-color: #0b111d;
+    justify-content: center;
+    padding: 17px;
+    font-family: "Kanit", sans-serif;
+}
+.Lside_bar {
+    padding: 10px;
+    background-color: #202c3c;
+    font-size: 12px;
+    color: grey;
+    border-radius: 10px;
+    text-align: center;
+}
+.wind_logo > img {
+    background-color: #3b4b60;
+    border-radius: 13px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+}
+.weather-icon_sect {
+    margin-top: 30px;
+}
+.city-list_sect, .map_sect {
+    margin: 15px 0;
+}
+img {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.main_bar {
+    margin: 0 20px;
+    /* width: 300px; */
+}
+.search_sect > input {
+    border-radius: 5px;
+    width: 45rem;
+    background-color: #202c3c;
+    border: none;
+    padding: 7px;
+    color: white;
+    margin-bottom: 10px;
+}
+.weather_content_sect {
+    display: flex;
+    justify-content: space-between;
+}
+.today_forecast_sect {
+    background-color: #202c3c;
+    color: grey;
+    padding: 18px;
+    border-radius: 13px;
+}
+.flex_forecast {
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 13px;
+}
+.block2, .block3, .block4, .block5 {
+    padding: 0 1rem;
+    border-right: 1px solid rgba(128, 128, 128, 0.289);
+}
+.block1 {
+    padding: 0 1rem 0 0;
+    border-right: 1px solid rgba(128, 128, 128, 0.289);
+}
+.block6 {
+    padding-left: 1rem;
+}
+.air_condition_sect {
+    color: grey;
+    margin-top: 10px;
+    padding: 18px;
+    background-color: #202c3c;
+    border-radius: 13px;
+    /* display: flex; */
+}
+.containDflex {
+    display: flex;
+}
+.dFlex {
+    display: flex;
+}
+.air_condition_flex1 {
+    margin-right: 7rem;
+}
+.Rside_bar {
+    background-color: #202c3c;
+    color: grey;
+    border-radius: 13px;
+    margin-top: 3rem;
+    padding: 18px;
+}
+.week_sect {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    padding: 7px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.289);
+}
+hr {
+    height: 1px;
 }
