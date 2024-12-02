@@ -56,7 +56,25 @@ img {
 }
 .weather_content_sect {
     display: flex;
+    width: 700px;
+    margin: 0 auto;
     justify-content: space-between;
+}
+.weather-display {
+    width: 200px;
+    height: 200px;
+}
+.city_name {
+    font-size: 32px;
+}
+.rain-percentage {
+    font-size: 13px;
+    color: rgba(240, 255, 255, 0.336);
+    margin-bottom: 40px;
+}
+.temp_display {
+    font-size: 43px;
+    font-weight: 500;
 }
 .today_forecast_sect {
     background-color: #202c3c;

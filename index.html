@@ -31,16 +31,16 @@
     <section class="main_bar">
         <div class="search_sect">
             <input type="text" name="" id="search_id" placeholder="Search for cities">
-            <button id="srch_btn" onclick="fetchData()">Search</button>
+            <button id="srch_btn" class="search_btn" onclick="fetchData()">Search</button>
         </div>
         <div class="weather_content_sect">
             <div>
-                <span class="country_location" id="city"></span>
+                <span class="city_name" id="city"></span>
                 <p class="rain-percentage">Chance of rain: <span id="rain_percent">0%</span></p>
-                <span id="temperature"></span>
+                <span class="temp_display" id="temperature"></span>
             </div>
             <div>
-                <img src="" alt="" id="weather_display">
+                <img src="./images/Sun.png" alt="" class="weather-display" id="weather_display">
             </div>
         </div>
         <div class="today_forecast_sect">
