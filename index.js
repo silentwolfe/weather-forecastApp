@@ -48,7 +48,7 @@ async function fetchData() {
         const data = await response.json();
         // rain_percent.innerHTML = data.main.temp;
         Display_city.innerHTML = data.name;
-        temp.innerHTML = data.main.temp;
+        temp.innerHTML = `${data.main.temp}°`;
         console.log(data);
         
     } catch(error){ 

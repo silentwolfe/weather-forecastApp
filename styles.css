@@ -61,8 +61,8 @@ img {
     justify-content: space-between;
 }
 .weather-display {
-    width: 200px;
-    height: 200px;
+    width:fit-content;
+    height: 150px;
 }
 .city_name {
     font-size: 32px;
