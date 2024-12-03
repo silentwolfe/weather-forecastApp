@@ -54,6 +54,16 @@ img {
     color: white;
     margin-bottom: 10px;
 }
+.search_sect > button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #3b4b60;
+    color: gray;
+}
 .weather_content_sect {
     display: flex;
     width: 700px;
@@ -62,7 +72,8 @@ img {
 }
 .weather-display {
     width:fit-content;
-    height: 150px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 .city_name {
     font-size: 32px;
@@ -70,6 +81,7 @@ img {
 .rain-percentage {
     font-size: 13px;
     color: rgba(240, 255, 255, 0.336);
+    margin-left: 7px;
     margin-bottom: 40px;
 }
 .temp_display {
@@ -83,9 +95,22 @@ img {
     border-radius: 13px;
 }
 .flex_forecast {
+    width:max-content;
+    justify-content: space-between;
+    font-size: 38px;
+    /* border: 3px solid red; */
     text-align: center;
     display: flex;
     margin: 10px 0 0 13px;
+}
+.flex_forecast > div > h2 {
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 600;
+    font-size: 16px;
+}
+.flex_forecast > div > img {
+    width: fit-content;
+    height: 80px;
 }
 .block2, .block3, .block4, .block5 {
     padding: 0 1rem;
@@ -112,10 +137,19 @@ img {
 .dFlex {
     display: flex;
 }
+.dFlex > div > p, span {
+    margin-left: 5px;
+}
+.dFlex > div > span {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.747);
+}
 .air_condition_flex1 {
-    margin-right: 7rem;
+    margin-right: 13rem;
 }
 .Rside_bar {
+    width: 700px;
     background-color: #202c3c;
     color: grey;
     border-radius: 13px;
@@ -125,11 +159,20 @@ img {
 .week_sect {
     display: flex;
     align-items: center;
-    text-align: center;
-    /* justify-content: center; */
-    padding: 7px;
+    text-align: right;
+    /* padding: 7px; */
     border-bottom: 1px solid rgba(128, 128, 128, 0.289);
+    /* border: 3px solid pink; */
 }
-hr {
-    height: 1px;
+.week_sect > p {
+    text-align: right;
+    border: 3px solid red;
+    align-items: flex-end;
+    justify-content: end;
+    /* margin: 0 5rem 2rem 0; */
+}
+.innerDiv {
+    justify-content: space-between;
+    border: 3px solid white;
+    margin: 0 5rem;
 }
