@@ -47,7 +47,7 @@ img {
 }
 .search_sect > input {
     border-radius: 5px;
-    width: 45rem;
+    width: 91%;
     background-color: #202c3c;
     border: none;
     padding: 7px;
@@ -149,7 +149,8 @@ img {
     margin-right: 13rem;
 }
 .Rside_bar {
-    width: 700px;
+    min-width: 400px;
+    width: 10%;
     background-color: #202c3c;
     color: grey;
     border-radius: 13px;
@@ -158,21 +159,34 @@ img {
 }
 .week_sect {
     display: flex;
-    align-items: center;
-    text-align: right;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+    /* align-items: center; */
+    /* text-align: right; */
     /* padding: 7px; */
     border-bottom: 1px solid rgba(128, 128, 128, 0.289);
     /* border: 3px solid pink; */
 }
-.week_sect > p {
-    text-align: right;
-    border: 3px solid red;
+.day {
+    width: 30%;
+    text-align: left;
+    /* border: 3px solid red; */
     align-items: flex-end;
     justify-content: end;
     /* margin: 0 5rem 2rem 0; */
 }
+.day_temp {
+    text-align: right;
+    /* border: 3px solid green; */
+    width: 30%;
+}
 .innerDiv {
+    width: 30%;
     justify-content: space-between;
-    border: 3px solid white;
-    margin: 0 5rem;
+    /* border: 3px solid white; */
+    /* margin: 0 5rem; */
+}
+
+@media screen {
+    
 }

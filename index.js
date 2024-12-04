@@ -160,15 +160,7 @@ async function fetchData() {
         air_sect_wind.innerText = `${data.hourly.wind_speed_10m[0]}km/h`;
 
         // Right side section
-        const timeArray = [
-            "2024-12-03",
-            "2024-12-04",
-            "2024-12-05",
-            "2024-12-06",
-            "2024-12-07",
-            "2024-12-08",
-            "2024-12-09"
-        ];
+        const timeArray = data.daily.time;
         
         // Mapping of day numbers to day names
         const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
